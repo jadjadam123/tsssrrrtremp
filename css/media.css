@@ -1,0 +1,552 @@
+@media only screen and (max-width: 1799px){
+    .roadmap_title h2 span {
+        font-size: 500px;
+        line-height: 440px;
+    }
+    .do_not_button {
+        padding-top: 850px;
+        margin-top: -854px;
+    }
+}
+
+@media only screen and (max-width: 1599px){
+    .ktf_all_detail .ktf_text p {
+        max-width: 100%;
+    }
+    .supply_box .supply_text p {
+        font-size: 88px;
+    }
+    .fun_facts_details .sign_image {
+        padding-right: 80px;
+    }
+    .roadmap_title h2 span {
+        font-size: 400px;
+        line-height: 350px;
+    }
+    .do_not_button {
+        padding-top: 800px;
+        margin-top: -816px;
+    }
+    .token_full_detail .token_title {
+        font-size: 90px;
+    }
+    .token_full_detail .token_image img {
+        width: 640px;
+    }
+    .zero_team_detail .zero_team_text p {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1499px){
+    .ktf_all_detail .ktf_title h1 {
+        font-size: 82px;
+    }
+    .ktf_all_detail .ktf_text p,
+    .zero_team_detail .zero_team_text p {
+        font-size: 34px;
+        line-height: 38px;
+    }
+    .degen_btn_box {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+    .do_not_button {
+        padding-top: 850px;
+        margin-top: -903px;
+    }
+    .roadmap_title h2 {
+        font-size: 80px;
+    }
+    .roadmap_title h2 span {
+        font-size: 360px;
+        line-height: 330px;
+    }
+    .zero_team_detail .zero_team_title h2 {
+        font-size: 78px;
+        max-width: 100%;
+    }
+    .zero_team_detail,
+    .wtf_image,
+    .roadmap_left_img {
+        padding-left: 50px;
+    }
+    .roadmap_section {
+        padding: 100px 0px 500px;
+    }
+    .roadmap_right_img {
+        padding-right: 50px;
+    }
+    .elon_section .elon_image_box {
+        margin-top: -500px;
+    }
+}
+
+@media only screen and (max-width: 1299px){
+    .logo_img {
+        max-width: 25%;
+    }
+    .logo_link .logo_text_link {
+        font-size: 50px;
+    }
+    .social_img_box {
+        max-width: 60px;
+    }
+    .toggle_button {
+        max-width: 80px;
+    }
+    .degen_btn_box {
+        margin-top: 10px;
+    }
+    .supply_box .supply_text p {
+        font-size: 74px;
+    }
+    .token_full_detail .token_image img {
+        width: 500px;
+    }
+    .token_full_detail .token_title {
+        font-size: 68px;
+    }
+    .token_image_box {
+        text-align: center;
+    }
+    .zero_team_detail .zero_team_title h2 {
+        font-size: 70px;
+    }
+    .fun_facts_details .hard_title h3 {
+        font-size: 80px;
+    }
+    .fun_facts_details .sign_image img {
+        width: 300px;
+    }
+    .fun_facts_details .sign_image {
+        padding-right: 40px;
+    }
+    .do_not_button {
+        padding-top: 750px;
+        margin-top: -764px;
+    }
+    .elon_section .elon_image_box {
+        margin-top: -450px;
+    }
+    .roadmap_section {
+        padding: 100px 0px 450px;
+    }
+    .degen_btn_img img {
+        width: 250px;
+    }
+    .degen_btn_text {
+        font-size: 34px;
+        line-height: 34px;
+    }
+    .bottom_social_img {
+        max-width: 10%;
+    }
+    .ktf_all_detail .ktf_title h1 {
+        font-size: 72px;
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    .ktf_all_detail .ktf_text p, .zero_team_detail .zero_team_text p {
+        font-size: 32px;
+        line-height: 34px;
+    }
+    .supply_box .supply_text p {
+        font-size: 68px;
+    }
+    .roadmap_title h2 span {
+        font-size: 300px;
+        line-height: 270px;
+    }
+    .roadmap_title h2 {
+        font-size: 70px;
+    }
+    .zero_team_detail, .wtf_image, .roadmap_left_img {
+        padding-left: 30px;
+    }
+    .roadmap_right_img {
+        padding-right: 30px;
+    }
+    .zero_team_detail .zero_team_title h2 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
+@media only screen and (max-width: 899px){
+    .logo_box {
+        flex: 0 0 auto;
+    }
+    .toggle_social_box {
+        flex: 1;
+    }
+    .social_img_box {
+        max-width: 40px;
+    }
+    .logo_link .logo_text_link {
+        font-size: 34px;
+    }
+    .ktf_all_detail .ktf_title h1 {
+        font-size: 44px;
+    }
+    .ktf_all_detail .ktf_text p, .zero_team_detail .zero_team_text p {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .zero_team_detail, .wtf_image, .roadmap_left_img {
+        padding-left: 0px;
+    }
+    .toggle_button {
+        max-width: 50px;
+    }
+    .nav_social_box {
+        column-gap: 12px;
+    }
+    .degen_btn_img img {
+        width: 135px;
+    }
+    .degen_btn_text {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .degen_btn_box {
+        margin-top: 0px;
+    }
+    .supply_box .supply_text p {
+        font-size: 46px;
+    }
+    .contact_address p {
+        font-size: 28px;
+        line-height: 30px;
+        padding-top: 20px;
+    }
+    .wtf_image {
+        padding-left: 40px;
+    }
+    .ktf_all_detail {
+        margin-left: -40px;
+        padding-bottom: 10px;
+    }
+    .wtf_image {
+        margin-bottom: -11px;
+    }
+    .supply_box .supply_text {
+        border: 4px solid #000;
+    }
+    .zero_team_section .row{
+        flex-direction: column-reverse;
+    }
+    .zero_team_detail .zero_team_title h2 {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .zero_team_detail .zero_team_text p {
+        text-align: center;
+        padding: 10px 20px;
+    }
+    .fun_facts_section .fun_facts_text p br,
+    .fun_facts_details .hard_title h3 br,
+    .roadmap_discrip_text p br {
+        display: none;
+    }
+    .fun_facts_section .container-fluid{
+        padding: 0px !important;
+    }
+    .hard_title {
+        padding: 0 20px;
+    }
+    .fun_facts_details .hard_title h3 {
+        font-size: 56px;
+        letter-spacing: 2.61px;
+    }
+    .fun_facts_details .sign_image {
+        padding-right: 0px;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .roadmap_right_img {
+        padding-right: 0px;
+    }
+    .roadmap_section {
+        padding: 50px 0px 450px;
+    }
+    .roadmap_title h2 {
+        font-size: 40px;
+    }
+    .roadmap_title h2 span {
+        font-size: 230px;
+        line-height: 220px;
+    }
+    .full_three_box {
+        max-width: 75%;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .three_list_item .three_item_text p {
+        font-size: 42px;
+    }
+    .three_list_item {
+        gap: 30px;
+    }
+    .roadmap_discrip_text p {
+        font-size: 34px;
+        padding-top: 30px;
+    }
+    .do_not_button {
+        padding-top: 450px;
+        margin-top: -430px;
+    }
+    .elon_section .elon_image_box {
+        margin-top: -406px;
+    }
+    .roadmap_section {
+        padding: 50px 0px 400px;
+    }
+    .three_list_item .three_item_number h2 {
+        font-size: 156px;
+    }
+    .do_not_button .do_not_text h3 {
+        font-size: 54px;
+    }
+    .bottom_last_text p {
+        padding-top: 40px !important;
+        padding: 0 30px;
+    }
+    .fun_facts_section .fun_facts_text p {
+        line-height: 40px;
+    }
+}
+
+@media (max-width:800px) and (min-width:768px){
+    .wtf_image {
+        margin-bottom: -62px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .nav_social_box{
+        display: none;
+    }
+    .logo_box {
+        flex: auto;
+        width: 75%;
+    }
+    .toggle_social_box {
+        flex: auto;
+    }
+    .wtf_section .row{
+        flex-direction: column-reverse;
+    }
+    .ktf_all_detail {
+        margin-left: 0px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .degen_top_btn{
+        display: none;
+    }
+    .top_social_icon{
+        display: block;
+    }
+    .top_social_icon {
+        display: block;
+        padding: 20px 0px;
+    }
+    .wtf_image {
+        margin-bottom: 0px;
+    }
+    .supply_box .supply_text p {
+        font-size: 20px;
+    }
+    .wtf_image {
+        padding-left: 20px;
+    }
+    .contact_address p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 10px;
+    }
+    .token_full_detail .token_image img {
+        width: 280px;
+    }
+    .token_full_detail .token_title {
+        font-size: 36px;
+    }
+    .zero_team_detail .zero_team_title h2 {
+        font-size: 44px;
+        line-height: 40px;
+    }
+    .zero_team_detail .zero_team_text p {
+        padding: 10px 0px;
+    }
+    .buy_now_link {
+        font-size: 20px;
+        padding: 12px 20px 10px;
+        border: 2px solid #000;
+    }
+    .buy_now_btn {
+        top: -12px;
+    }
+    .fun_facts_btn {
+        bottom: -12px;
+    }
+    .fun_facts_section .fun_facts_title h2 {
+        font-size: 42px;
+    }
+    .fun_facts_section .fun_facts_text p {
+        line-height: 20px;
+        font-size: 17px;
+        padding-bottom: 50px !important;
+        padding: 0 10px;
+    }
+    .fun_facts_details .hard_title h3 {
+        font-size: 24px;
+        letter-spacing: 1.61px;
+        padding-top: 60px;
+    }
+    .fun_facts_details .sign_image img {
+        width: 200px;
+    }
+    .roadmap_left_img {
+        margin-top: -50px;
+    }
+    .roadmap_right_img {
+        margin-top: -50px;
+    }
+    .roadmap_section {
+        padding: 30px 0px 280px;
+    }
+    .roadmap_section .row .col-3,
+    .roadmap_section .row .col-6{
+        padding: 0px !important;
+    }
+    .roadmap_title h2 {
+        font-size: 18px;
+    }
+    .roadmap_title h2 span {
+        font-size: 150px;
+        line-height: 160px;
+    }
+    .roadmap_discrip_text p {
+        font-size: 18px;
+        padding-top: 10px;
+        line-height: 22px;
+    }
+    .three_list_item .three_item_number h2 {
+        font-size: 76px;
+    }
+    .full_three_box {
+        max-width: 80%;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .three_list_item .three_item_text p {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .elon_section .elon_image_box {
+        margin-top: -275px;
+    }
+    .do_not_button {
+        padding-top: 120px;
+        margin-top: -92px;
+        padding-bottom: 40px;
+    }
+    .do_not_button .do_not_text h3 {
+        font-size: 26px;
+    }
+    .do_not_button {
+        gap: 5px;
+    }
+    .degen_btn_box {
+        max-width: 25%;
+    }
+    .degen_btn_text {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .bottom_social_img {
+        max-width: 100%;
+    }
+    .bottom_social_images {
+        gap: 10px;
+    }
+    .bottom_last_text p {
+        padding-top: 20px !important;
+        padding: 0 0px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .d_road_img{
+        display: none;
+    }
+    .m_road_img{
+        display: block;
+    }
+    .zero_team_section {
+        padding: 20px 0px 30px;
+    }
+    .fun_facts_section {
+        padding: 50px 0px 10px;
+    }
+    .bottom_social_section {
+        padding: 30px 0px 10px;
+    }
+    .ktf_all_detail .ktf_text p, .zero_team_detail .zero_team_text p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .supply_box .supply_text {
+        border: 2px solid #000;
+    }
+    .logo_link .logo_text_link {
+        font-size: 25px;
+    }
+    .three_list_item {
+        gap: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 350px){
+    .contact_address p {
+        font-size: 13px;
+    }
+    .zero_team_detail .zero_team_title h2 {
+        font-size: 38px;
+    }
+    .full_three_box {
+        max-width: 95%;
+    }
+    .three_list_item {
+        gap: 10px;
+    }
+    .do_not_button .do_not_text h3 {
+        font-size: 22px;
+    }
+    .do_not_button {
+        padding-top: 190px;
+        margin-top: -171px;
+    }
+    .elon_section .elon_image_box {
+        margin-top: -130px;
+    }
+    .roadmap_section {
+        padding: 30px 0px 120px;
+    }
+    .degen_btn_text {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .roadmap_title h2 {
+        font-size: 15px;
+    }
+    .roadmap_title h2 span {
+        font-size: 130px;
+        line-height: 130px;
+    }
+    .fun_facts_details .hard_title h3 {
+        font-size: 20px;
+    }
+}

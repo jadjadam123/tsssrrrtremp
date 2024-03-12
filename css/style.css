@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+/* font-family: 'Itim', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap');
+/* font-family: 'Libre Bodoni', serif; */
+
+@font-face {
+    font-family: bodoni;
+    src: url('../%20Bold.otf');
+}
+
+/* ------------common_css------------- */
+.container-fluid {
+	max-width: 1920px;
+}
+
+.text_shadow{
+	text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+@media (max-width:767px) {
+	.text_shadow{
+		text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+	}
+}
+
+
+.main_header {
+	overflow: hidden;
+}
+.open-menu .main_header {
+	overflow: unset;
+}
+.offcanvaswrp {
+	position: fixed;
+	top: 0;
+	right: -100%;
+	width: 400px;
+	background-color: #fff;
+	padding: 10px;
+	height: 100vh;
+	z-index: 99;
+	background-color: #7ce296;
+	z-index: 9999;
+	transition: all 0.3s;
+}
+@media (max-width: 399px){
+	.offcanvaswrp {
+		width: 310px;
+	}
+}
+.open-menu .offcanvaswrp{
+	right: 0;
+}
+.menu-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.36);
+	display: none;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+.open-menu .menu-overlay {
+	display: block;
+}
+.offcanvaswrp .nav-link {
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+}
+.offcanvaswrp .nav-link:hover{
+	font-size: 26px !important;
+	transition: all .2s;
+}
+.toggle-button{
+	padding: 0px;
+	border: none;
+}
+.full_toggle_header {
+	display: flex;
+	align-items: center;
+}
+.offcanvas_logo .logo_link .logo_img{
+	max-width: 25%;
+}
+.offcanvas_logo .logo_link .logo_text_link{
+	font-size: 30px;
+}
+.toggle_close_box .close.toggle-button {
+	border: 1px solid #000;
+	background: top;
+	font-size: 25px;
+	padding: 0px 10px;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+.toggle_close_box .close.toggle-button:hover {
+	text-decoration: none;
+	opacity: 1;
+	/* border: 1px solid #000; */
+	font-size: 30px;
+	transition-duration: 0.2s;
+}
+
+/* -------------main_header------------- */
+
+.main_header .full_navbar{
+    background-color: #dcdcdc;
+}
+.logo_box {
+	display: flex;
+	align-items: center;
+}
+.logo_img {
+	max-width: 30%;
+}
+.logo_link .logo_text_link {
+	/* font-family: 'Libre Bodoni', serif; */
+	font-family: bodoni;
+	color: #fff;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 2.61px;
+}
+.toggle_social_box {
+	display: flex;
+	align-items: center;
+}
+.social_img_box {
+	max-width: 70px;
+}
+.nav_social_box {
+	display: flex;
+	align-items: center;
+	column-gap: 24px;
+}
+
+.navbar-toggler {
+	border: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+   }
+.navbar-toggler-icon {
+	display: block;
+	width: auto;
+	height: auto;
+}
+.toggle_button {
+	max-width: 100px;
+}
+
+.full_offcanvas{
+	background-color: #7ce296;
+}
+.offcanvas_logo .logo_link .logo_img{
+	max-width: 25%;
+}
+.offcanvas_logo .logo_link .logo_text_link{
+	font-size: 30px;
+}
+.navbar_full_list .nav-item .nav-link {
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+	font-family: Itim;
+	padding: 5px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+	font-size: 28px !important;
+}
+.btn-close {
+	opacity: 1;
+	font-size: 20px;
+	margin-right: 0px !important;
+	margin-bottom: 0px !important;
+	border: 1px solid #000;
+}
+
+
+/* --------------wtf_section------------ */
+
+.wtf_section{
+    background-color: #dcdcdc;
+}
+.wtf_image {
+	padding-left: 100px;
+}
+.ktf_all_detail {
+	margin-left: -70px;
+}
+.ktf_all_detail .ktf_title h1 {
+	font-family: 'Libre Bodoni', serif;
+	font-family: bodoni;
+	color: #fff;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 4.71px;
+	font-size: 98px;
+}
+.ktf_all_detail .ktf_text p {
+	color: #010101;
+	font-family: 'Itim', cursive;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 48px;
+	max-width: 82%;
+}
+.degen_btn_box {
+	text-align: center;
+	max-width: 82%;
+}
+.degen_btn_img img{
+    width: 300px;
+}
+.degen_btn_link {
+	display: inline-block;
+	position: relative;
+}
+.degen_btn_text {
+	/* font-family: 'Libre Bodoni', serif; */
+	font-family: bodoni;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 40px;
+	color: #fff;
+	position: absolute;
+	top: 28%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.supply_box .supply_text{
+    border: 9px solid #000;
+    background: #fff;
+    border-radius: 100px;
+    margin-top: -2px;
+    z-index: 9;
+    position: relative;
+}
+.supply_box .supply_text p {
+	/* font-family: 'Libre Bodoni', serif; */
+	font-family: bodoni;
+	color: #000;
+	text-align: center;
+	font-size: 108px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin: 0;
+	padding: 10px 0px;
+}
+.contact_address p {
+	font-family: 'Itim', cursive;
+	color: #010101;
+	text-align: center;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 69px;
+	margin: 0;
+}
+
+/* ----------------zero_team_section----------------- */
+
+.zero_team_section {
+	background-color: #dcdcdc;
+	padding: 60px 0px 70px;
+}
+.zero_team_detail {
+	padding-left: 100px;
+}
+.zero_team_detail .zero_team_title h2 {
+	color: #fff;
+	font-family: 'Itim', cursive;
+	font-size: 82px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 70px;
+	max-width: 98%;
+}
+.zero_team_detail .zero_team_text p {
+	color: #010101;
+	font-family: Itim;
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 48px;
+	max-width: 90%;
+	padding-top: 10px;
+}
+.token_full_detail {
+	position: relative;
+	display: inline-block;
+}
+.token_full_detail .token_image img { 
+	width: 750px;
+}
+.token_full_detail .token_title {
+	/* font-family: 'Libre Bodoni', serif; */
+	font-family: bodoni;
+	color: #fff;
+	font-size: 106px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 4.71px;
+	margin: 0px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* --------------buy_section---------------- */
+
+.buy_section{
+    position: relative;
+}
+.buy_image img{
+    width: 100%;
+}
+.buy_now_btn {
+	position: absolute;
+	top: -20px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.buy_now_link {
+	/* font-family: 'Libre Bodoni', serif; */
+	font-family: bodoni;
+	color: #1E1E1E;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-decoration: none;
+	border: 4px solid #000;
+	border-radius: 50px;
+	background: #fff;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	padding: 18px 30px 10px;
+}
+.buy_now_link:hover{
+	color: #000;
+}
+
+/* ---------------fun_facts_section---------------- */
+
+.fun_facts_section {
+	background-color: #fff;
+	padding: 70px 0px 10px;
+}
+.fun_facts_details {
+	text-align: center;
+}
+.fun_facts_img_box{
+    position: relative;
+}
+.fun_facts_btn {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	bottom: -20px;
+}
+.fun_facts_section .fun_facts_title h2 {
+	/* font-family: 'Libre Bodoni', serif; */
+	font-family: bodoni;
+	font-size: 76px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 5.31px;
+	color: #000;
+	margin: 0px;
+}
+.fun_facts_section .fun_facts_text p {
+	color: #010101;
+	font-family: Itim;
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 48px;
+	margin: 0 auto;
+	padding-bottom: 60px;
+}
+.fun_facts_details .hard_title h3 {
+	/* font-family: 'Libre Bodoni', serif; */
+	font-family: bodoni;
+	color: #000;
+	font-size: 94px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 5.61px;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+.fun_facts_details .sign_image {
+	text-align: right;
+	padding-right: 200px;
+	margin-top: -30px;
+}
+.fun_facts_details .sign_image img {
+	width: 400px;
+}
+
+/* --------------roadmap_section--------------- */
+
+.roadmap_section {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	padding: 100px 0px 650px;
+	position: relative;
+}
+.roadmap_left_img {
+	padding-left: 80px;
+}
+.roadmap_right_img {
+	padding-right: 83px;
+}
+.roadmap_title h2 {
+	font-family: bodoni;
+	color: #fff;
+	text-align: center;
+	font-size: 100px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 4.71px;
+}
+.roadmap_title h2 span {
+	font-family: bodoni;
+	font-size: 600px;
+	line-height: 500px;
+}
+.roadmap_discrip_text p {
+	color: #010101;
+	text-align: center;
+	font-family: Itim;
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 40px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.full_three_box {
+	max-width: 770px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.three_list_item {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+.three_list_item .three_item_number h2 {
+	color: #fff;
+	font-size: 206px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 12.51px;
+	font-family: bodoni;
+}
+.three_list_item .three_item_text p {
+	font-family: 'Itim', cursive;
+	color: #010101;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 50px;
+}
+
+/* -------------elon_section-------------- */
+
+
+.elon_section .elon_image_box {
+	position: relative;
+	margin-top: -680px;
+}
+.do_not_button {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+	justify-content: center;
+	background-color: #29AAE3;
+	padding-bottom: 70px;
+	padding-top: 1080px;
+	margin-top: -1130px;
+}
+.do_not_button .do_not_text h3 {
+	color: #fff;
+	font-size: 80px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 4.71px;
+	font-family: bodoni;
+}
+
+/* --------------bottom_social_section------------------ */
+
+.bottom_social_section {
+	background-color: #29AAE3;
+	padding: 80px 0px 40px;
+}
+.bottom_social_images {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+	justify-content: center;
+}
+.bottom_last_text p {
+	font-family: 'Itim', cursive;
+	color: #010101;
+	text-align: center;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 39px;
+	padding-top: 70px !important;
+	padding: 0 80px;
+}
+
+.top_social_icon{
+	display: none;
+}
+.top_social_icon .bottom_social_images {
+	gap: 20px;
+}
+.m_road_img{
+	display: none;
+}
